@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, button {
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.user-info {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+.user-info img {
+    width: 150px;
+    border-radius: 8px;
+}
+
+.user-info a {
+    color: blue;
+    text-decoration: none;
+}
+
+.repo-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.repo-list li {
+    margin-bottom: 10px;
+}
+
+.repo-list a {
+    color: #0366d6;
+    font-weight: bold;
+    text-decoration: none;
+}
